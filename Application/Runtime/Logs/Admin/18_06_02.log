@@ -1,0 +1,882 @@
+[ 2018-06-02T08:47:17+08:00 ] 10.6.0.9 /tp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2018-06-02T08:47:17+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Index/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2018-06-02T08:47:29+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Index/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `jifen_teacher` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jifen_teacher` WHERE `password` = '111111' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tid /var/www/html/tp/Application/Admin/Controller/IndexController.class.php 第 38 行.
+NOTIC: [2] Use of undefined constant tname - assumed 'tname' (this will throw an Error in a future version of PHP) /var/www/html/tp/Application/Admin/Controller/IndexController.class.php 第 38 行.
+SQL: SELECT * FROM `jifen_teacher` WHERE `ttid` = 0  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2018-06-02T08:47:30+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2018-06-02T08:47:30+08:00 ] 10.6.0.9 /tp/index.php?s=Admin/User/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2018-06-02T08:48:06+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_students
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `jifen_teacher` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `jifen_lianjie1` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jifen_teacher` WHERE ( tid = '00113' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jifen_lianjie1` WHERE ( id = '1' )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 16 行.
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 20 行.
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 24 行.
+NOTIC: [8] Undefined variable: ccname /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2018-06-02T08:48:09+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_students
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `jifen_student` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `jifen_class` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `jifen_lianjie1` [ RunTime:0.0014s ]
+SQL: SELECT `cid` FROM `jifen_class` WHERE ( cname = '数据库一班' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jifen_lianjie1` WHERE ( cid = '2' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jifen_student` WHERE ( cid = '2' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000030s ]
+
+[ 2018-06-02T08:48:10+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `jifen_shenhe` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `jifen_shenhe`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2018-06-02T08:48:13+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_test/id/164804087
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2018-06-02T08:48:14+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+SQL: SHOW COLUMNS FROM `jifen_detail` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jifen_detail` WHERE ( stid = '164804087' ) ORDER BY did desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2018-06-02T08:48:18+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `jifen_shenhe` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `jifen_shenhe`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-06-02T08:48:20+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_students
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `jifen_teacher` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `jifen_lianjie1` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jifen_teacher` WHERE ( tid = '00113' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jifen_lianjie1` WHERE ( id = '1' )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 16 行.
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 20 行.
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 24 行.
+NOTIC: [8] Undefined variable: ccname /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2018-06-02T08:48:23+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_students
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000595s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `jifen_teacher` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `jifen_lianjie1` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jifen_teacher` WHERE ( tid = '00113' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jifen_lianjie1` WHERE ( id = '1' )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 16 行.
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 20 行.
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 24 行.
+NOTIC: [8] Undefined variable: ccname /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2018-06-02T08:48:26+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_students
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000321s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `jifen_student` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `jifen_class` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `jifen_lianjie1` [ RunTime:0.0014s ]
+SQL: SELECT `cid` FROM `jifen_class` WHERE ( cname = '数据库一班' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jifen_lianjie1` WHERE ( cid = '2' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jifen_student` WHERE ( cid = '2' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2018-06-02T08:48:28+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `jifen_shenhe` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `jifen_shenhe`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000030s ]
+
+[ 2018-06-02T08:48:29+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_test/id/164804109
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2018-06-02T08:48:30+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `jifen_detail` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jifen_detail` WHERE ( stid = '164804109' ) ORDER BY did desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2018-06-02T08:48:33+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/zuofei1/id/43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `jifen_detail` [ RunTime:0.0024s ]
+SQL: UPDATE `jifen_detail` SET `shtime`='2018-06-02 08:48:33',`state`='-1',`hdscore`='0' WHERE ( did = '43' ) [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2018-06-02T08:48:34+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `jifen_detail` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jifen_detail` WHERE ( stid = '164804109' ) ORDER BY did desc  [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2018-06-02T08:48:35+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `jifen_shenhe` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jifen_shenhe`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2018-06-02T08:48:39+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_students
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `jifen_teacher` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `jifen_lianjie1` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `jifen_teacher` WHERE ( tid = '00113' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jifen_lianjie1` WHERE ( id = '1' )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 16 行.
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 20 行.
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 24 行.
+NOTIC: [8] Undefined variable: ccname /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2018-06-02T08:48:43+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_students
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `jifen_student` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `jifen_class` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `jifen_lianjie1` [ RunTime:0.0013s ]
+SQL: SELECT `cid` FROM `jifen_class` WHERE ( cname = '数据库一班' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jifen_lianjie1` WHERE ( cid = '2' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jifen_student` WHERE ( cid = '2' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2018-06-02T08:48:44+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `jifen_shenhe` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `jifen_shenhe`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2018-06-02T08:48:46+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_test/id/164804366
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2018-06-02T08:48:47+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `jifen_detail` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `jifen_detail` WHERE ( stid = '164804366' ) ORDER BY did desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2018-06-02T08:48:48+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `jifen_shenhe` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `jifen_shenhe`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2018-06-02T08:49:37+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_test/id/164804109
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2018-06-02T08:49:38+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `jifen_detail` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jifen_detail` WHERE ( stid = '164804109' ) ORDER BY did desc  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2018-06-02T08:49:42+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `jifen_shenhe` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `jifen_shenhe`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2018-06-02T08:49:43+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_students
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `jifen_teacher` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `jifen_lianjie1` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `jifen_teacher` WHERE ( tid = '00113' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jifen_lianjie1` WHERE ( id = '1' )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 16 行.
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 20 行.
+NOTIC: [8] Undefined variable: info /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 24 行.
+NOTIC: [8] Undefined variable: ccname /var/www/html/tp/Application/Runtime/Cache/Admin/69a596042fd4cd04f92bd4666a09686d.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2018-06-02T08:49:53+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_students
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `jifen_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `jifen_class` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `jifen_lianjie1` [ RunTime:0.0015s ]
+SQL: SELECT `cid` FROM `jifen_class` WHERE ( cname = '数据库一班' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jifen_lianjie1` WHERE ( cid = '2' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `jifen_student` WHERE ( cid = '2' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2018-06-02T08:49:55+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `jifen_shenhe` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jifen_shenhe`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2018-06-02T08:50:01+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_test/id/164804109
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2018-06-02T08:50:02+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `jifen_detail` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `jifen_detail` WHERE ( stid = '164804109' ) ORDER BY did desc  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2018-06-02T08:50:03+08:00 ] 10.6.0.9 /tp/index.php?s=/Admin/Teacher/shenhe_showList2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `jifen_shenhe` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `jifen_shenhe`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+NOTIC: [8] Undefined variable: sum /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 40 行.
+NOTIC: [8] Undefined index: ttid /var/www/html/tp/Application/Runtime/Cache/Admin/d5b51fab7ce6b9c148b7bf42c564696e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
